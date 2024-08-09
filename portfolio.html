@@ -4,12 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Gabriel Carraro - Computer Scientist & Software Developer specializing in backend development, distributed systems, and Elixir.">
+    <meta name="keywords"
+        content="Gabriel Carraro, Computer Scientist, Software Developer, Elixir, Phoenix Framework, Backend Development, Distributed Systems">
+    <meta name="author" content="Gabriel Carraro">
     <title>Gabriel Carraro - Computer Scientist & Software Developer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap');
+
+        @media (max-width: 640px) {
+            .container {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+
 
         body {
             font-family: 'Inter', sans-serif;
@@ -95,6 +108,12 @@
                 </ul>
                 <p class="text-lg">Beyond coding, I'm passionate about music, playing chess, and swimming. An unusual
                     hobby of mine is DJing with friends.</p>
+
+                <a href="path/to/your/resume.pdf" download
+                    class="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                    Download Resume
+                </a>
+
             </section>
 
             <!-- Let's start working together card -->
@@ -107,6 +126,31 @@
                     class="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">Get
                     in touch</a>
             </section>
+
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="text-3xl font-bold mb-4 text-blue-400">Let's Connect</h2>
+                <form action="https://formspree.io/f/your-formspree-id" method="POST" class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-300">Name</label>
+                        <input type="text" name="name" id="name" required
+                            class="mt-1 block w-full rounded-md bg-gray-700 border-gray-600 text-white focus:border-blue-500 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+                        <input type="email" name="email" id="email" required
+                            class="mt-1 block w-full rounded-md bg-gray-700 border-gray-600 text-white focus:border-blue-500 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-300">Message</label>
+                        <textarea name="message" id="message" rows="4" required
+                            class="mt-1 block w-full rounded-md bg-gray-700 border-gray-600 text-white focus:border-blue-500 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">Send
+                        Message</button>
+                </form>
+            </section>
+
 
             <!-- Time zone card -->
             <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="300">
@@ -251,6 +295,11 @@
                                 class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
                                 Live Demo
                             </a>
+                            <a href="exchange.html"
+                                class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                                Project Details
+                            </a>
+
                         </div>
                     </div>
                     <!-- NFL Rushing Project -->
@@ -269,7 +318,7 @@
                                 class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
                                 View on GitHub
                             </a>
-                            <a href="#"
+                            <a href="nfl-rushing.html"
                                 class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
                                 Project Details
                             </a>
@@ -301,7 +350,7 @@
                                         class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
                                         View on GitHub
                                     </a>
-                                    <a href="#"
+                                    <a href="fingerprint-id.html"
                                         class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
                                         Project Details
                                     </a>
@@ -327,7 +376,7 @@
                                         class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
                                         View on GitHub
                                     </a>
-                                    <a href="#"
+                                    <a href="iris-recognition.html"
                                         class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
                                         Project Details
                                     </a>
