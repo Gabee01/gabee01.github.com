@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Carraro - Computer Scientist & Software Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .bg-pattern {
+            background-color: #1a202c;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%232d3748' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .transition-all {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+
+<body class="bg-pattern text-gray-100">
+    <div class="container mx-auto p-6">
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- Main introduction card -->
+            <section class="lg:col-span-2 bg-gray-800 rounded-lg p-8 flex flex-col justify-between shadow-lg"
+                data-aos="fade-up">
+                <div>
+                    <h1 class="text-4xl font-bold mb-4 text-blue-400">Welcome</h1>
+                    <p class="mb-4 text-lg">Hi, I'm Gabriel Carraro, a computer scientist and software developer with a
+                        strong focus on backend development, distributed systems, and Elixir.</p>
+                    <p class="text-lg">Feel free to reach out to me if you have any projects in mind, or just to say
+                        hello.</p>
+                </div>
+                <div class="flex space-x-4 mt-6">
+                    <a href="https://github.com/Gabee01"
+                        class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                        <svg class="w-6 h-6 inline" fill="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
+                    <a href="www.linkedin.com/in/carrarogab"
+                        class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                        <svg class="w-6 h-6 inline" fill="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/cgabee"
+                        class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                        <svg class="w-6 h-6 inline" fill="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                        </svg>
+                    </a>
+                    <a href="https://x.com/gabeecarraro"
+                        class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                        <svg class="w-6 h-6 inline" fill="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                        </svg>
+                    </a>
+                </div>
+            </section>
+
+            <!-- About me card -->
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="text-3xl font-bold mb-4 text-blue-400">About me</h2>
+                <p class="mb-4 text-lg">Hi, I'm Gabriel, a computer scientist and software developer from Brazil.</p>
+                <h3 class="text-xl font-semibold mb-2">My primary tools of choice include:</h3>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Elixir</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>React Native</li>
+                    <li>Linux/Unix systems</li>
+                </ul>
+                <p class="text-lg">Beyond coding, I'm passionate about music, playing chess, and swimming. An unusual
+                    hobby of mine is DJing with friends.</p>
+            </section>
+
+            <!-- Let's start working together card -->
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="text-3xl font-bold mb-4 text-blue-400">Let's start working together!</h2>
+                <h3 class="text-xl font-semibold mb-2">Contact Details</h3>
+                <p class="mb-4 text-lg">email@example.com</p>
+                <p class="text-lg">Brazil</p>
+                <a href="#"
+                    class="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">Get
+                    in touch</a>
+            </section>
+
+            <!-- Time zone card -->
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                <h2 class="text-3xl font-bold mb-4 text-blue-400">Current Time</h2>
+                <p class="text-2xl" id="current-time"></p>
+            </section>
+
+            <!-- Current status card -->
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="400">
+                <h2 class="text-3xl font-bold mb-4 text-blue-400">Now</h2>
+                <p class="text-lg">Currently working on a personal fitness app project</p>
+            </section>
+
+            <!-- Portfolio preview card -->
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="500">
+                <h2 class="text-3xl font-bold mb-4 text-blue-400">Portfolio Highlights</h2>
+                <ul class="list-disc list-inside mb-4">
+                    <li>ExChange - Currency Conversion API (Elixir)</li>
+                    <li>NFL Rushing - Interactive Data Analysis Web App (Elixir)</li>
+                    <li>Biometric Security Projects:</li>
+                    <ul class="list-circle list-inside ml-6">
+                        <li>Fingerprint Identification System (Python)</li>
+                        <li>Iris Recognition System (Python)</li>
+                    </ul>
+                </ul>
+                <a href="#projects"
+                    class="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">View
+                    Full Portfolio</a>
+            </section>
+            <!-- Fun facts card -->
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="600">
+                <h2 class="text-3xl font-bold mb-4 text-blue-400">Fun Facts</h2>
+                <ul class="list-disc list-inside">
+                    <li>Chess.com player</li>
+                    <li>Music theory enthusiast</li>
+                    <li>Amateur DJ</li>
+                    <li>Swimmer</li>
+                </ul>
+            </section>
+
+            <!-- Skills visualization -->
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="700">
+                <h2 class="text-3xl font-bold mb-4 text-blue-400">Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-300">Programming Languages</h3>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-blue-400">Elixir</span>
+                                <span class="text-sm font-medium text-blue-400">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-blue-400">JavaScript</span>
+                                <span class="text-sm font-medium text-blue-400">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-blue-400">Python</span>
+                                <span class="text-sm font-medium text-blue-400">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-semibold mb-2 text-blue-300">Technologies & Frameworks</h3>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-blue-400">Phoenix Framework</span>
+                                <span class="text-sm font-medium text-blue-400">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-blue-400">React</span>
+                                <span class="text-sm font-medium text-blue-400">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-base font-medium text-blue-400">OpenCV</span>
+                                <span class="text-sm font-medium text-blue-400">75%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg" data-aos="fade-up" data-aos-delay="700">
+                <div class="mt-6">
+                    <h3 class="text-xl font-semibold mb-2 text-blue-300">Additional Skills</h3>
+                    <ul class="list-disc list-inside grid grid-cols-2 gap-2">
+                        <li>Image Processing</li>
+                        <li>Biometric Security</li>
+                        <li>Data Analysis</li>
+                        <li>Algorithm Design</li>
+                        <li>Machine Learning</li>
+                        <li>Software Architecture</li>
+                        <li>API Development</li>
+                        <li>Version Control (Git)</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Projects Section -->
+            <section class="bg-gray-800 rounded-lg p-8 shadow-lg col-span-3" data-aos="fade-up" data-aos-delay="800">
+                <h2 class="text-3xl font-bold mb-6 text-blue-400">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- ExChange Project -->
+                    <div class="bg-gray-700 rounded-lg p-6">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-300">ExChange</h3>
+                        <p class="mb-4">A robust API for converting amounts between various currencies, built with
+                            Elixir and Phoenix.</p>
+                        <ul class="list-disc list-inside mb-4 text-gray-300">
+                            <li>Integrates with ExchangeRate API</li>
+                            <li>Implements microservice architecture</li>
+                            <li>Documented with OpenAPI 3.0</li>
+                        </ul>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/Gabee01/ExChange" target="_blank" rel="noopener noreferrer"
+                                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                                View on GitHub
+                            </a>
+                            <a href="#"
+                                class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <!-- NFL Rushing Project -->
+                    <div class="bg-gray-700 p-6 rounded-lg">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-300">NFL Rushing Statistics</h3>
+                        <p class="mb-4">An interactive web application for viewing, sorting, and filtering NFL rushing
+                            statistics, built with Elixir and Phoenix LiveView.</p>
+                        <ul class="list-disc list-inside mb-4 text-gray-300">
+                            <li>Real-time data processing and filtering</li>
+                            <li>Phoenix LiveView for interactive UI</li>
+                            <li>100% test coverage</li>
+                            <li>Docker integration for easy setup</li>
+                        </ul>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/Gabee01/nfl-rushing" target="_blank" rel="noopener noreferrer"
+                                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                                View on GitHub
+                            </a>
+                            <a href="#"
+                                class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                                Project Details
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Biometric Security Projects Section -->
+                    <section class="bg-gray-800 rounded-lg p-8 shadow-lg col-span-3 mt-8" data-aos="fade-up"
+                        data-aos-delay="900">
+                        <h2 class="text-3xl font-bold mb-6 text-blue-400 flex items-center">
+                            <span class="mr-2">🔐</span> Biometric Security Projects
+                        </h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- Fingerprint Identification Project -->
+                            <div class="bg-gray-700 p-6 rounded-lg">
+                                <h3 class="text-2xl font-bold mb-2 text-blue-300 flex items-center">
+                                    <span class="mr-2">👆</span> Fingerprint Identification System
+                                </h3>
+                                <p class="mb-4">A comprehensive fingerprint analysis and identification system developed
+                                    as part of biometrics and image processing coursework.</p>
+                                <ul class="list-disc list-inside mb-4 text-gray-300">
+                                    <li>Image enhancement and ROI detection</li>
+                                    <li>Fingerprint type classification</li>
+                                    <li>Minutiae extraction</li>
+                                    <li>Implemented in Python with OpenCV and NumPy</li>
+                                </ul>
+                                <div class="flex space-x-4">
+                                    <a href="https://github.com/Gabee01/fingerprint_id" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                                        View on GitHub
+                                    </a>
+                                    <a href="#"
+                                        class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                                        Project Details
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Iris Recognition Project -->
+                            <div class="bg-gray-700 p-6 rounded-lg">
+                                <h3 class="text-2xl font-bold mb-2 text-blue-300 flex items-center">
+                                    <span class="mr-2">👁️</span> Iris Recognition System
+                                </h3>
+                                <p class="mb-4">An advanced iris recognition system showcasing image processing and
+                                    biometric identification techniques.</p>
+                                <ul class="list-disc list-inside mb-4 text-gray-300">
+                                    <li>Pupil and iris localization</li>
+                                    <li>Iris normalization</li>
+                                    <li>Feature extraction using Gabor filters and LBP</li>
+                                    <li>Template matching with Hamming distance</li>
+                                </ul>
+                                <div class="flex space-x-4">
+                                    <a href="https://github.com/Gabee01/iris-recognition" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                                        View on GitHub
+                                    </a>
+                                    <a href="#"
+                                        class="bg-gray-600 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded transition-all hover:scale-105">
+                                        Project Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+
+        <footer class="mt-12 text-center text-sm text-gray-500">
+            <p>&copy; 2024 Gabriel Carraro. All rights reserved.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="#" class="hover:text-blue-400 transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-400 transition-colors">Terms of Service</a>
+                <a href="#" class="hover:text-blue-400 transition-colors">Contact</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const options = { timeZone: 'America/Sao_Paulo', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
+            document.getElementById('current-time').textContent = now.toLocaleTimeString('en-US', options) + ' BRT, Brazil';
+        }
+        updateTime();
+        setInterval(updateTime, 1000);
+
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
